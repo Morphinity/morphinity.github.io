@@ -17,7 +17,7 @@ body {
     font-family:'Arial', 'Verdana', 'Helvetica', 'Sans-Serif';
 }
 
-hr {
+#main_body hr {
     margin-top: -20px;
     border-style: ridge;
 }
@@ -68,24 +68,7 @@ ul#nav_list li:active {
     background-color: #aaa;
 }
 
-
-
-/*ul#nav_list li#active {
-    background-color: #ccc;
-    border-color: #eee #999 #aaa #fff;
-}*/
-
-
-/*nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    padding: 30px;
-}
+/*
 p {
     font-size: 1.5em;
     line-height: 1.4em;
