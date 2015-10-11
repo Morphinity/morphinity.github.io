@@ -1,0 +1,24 @@
+#posts {
+	position: relative;
+	padding: 20px;
+	font-family: 'Open Sans';
+	font-size: 1.5em;
+	width: 60%;	
+}
+
+#posts li{
+	list-style: none;
+}
+
+#posts a {
+	text-decoration: none;
+}
+
+#posts .date {
+	position: absolute;
+	right: 0px;
+}
+
+#posts hr{
+	margin: 0;
+}

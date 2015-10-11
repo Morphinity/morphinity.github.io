@@ -2,13 +2,12 @@
 layout: default
 title: "&#955 STATE"
 ---
-<h1>{{ page.title }}</h1>
-<ul class="posts">
+<ul id="posts">
   {% for post in site.posts %}
     <li>
-    	<span> {{ post.date | date_to_string }} </span>
-    	>>
+    	<<
     	<a href="{{ post.url }}" title="{{ post.title }}"> {{ post.title }} </a>
+    	<span class="date"> {{ post.date | date_to_string }} </span>
     </li>
   {% endfor %}
 </ul>
