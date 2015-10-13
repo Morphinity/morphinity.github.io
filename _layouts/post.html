@@ -2,12 +2,12 @@
 layout: default
 title: "&#955 STATE"
 ---
-<h1>
-	{{page.blogTitle}}
-</h1>
-
-<p class="meta"> {{page.date | date_to_string}} </p>
-
-<div class="post">
-	{{content}}
+<div id="post"> 
+	<div id="top_bar">
+		<div id="blog_title"> {{page.blogTitle}} </div>
+		<div id="blog_date"> {{page.date | date_to_string}} </div>
+	</div>
+	<div id="content">
+		{{content}}
+	</div>
 </div>

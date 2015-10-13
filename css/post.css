@@ -1,0 +1,25 @@
+#post {
+	font-family: 'Open Sans';
+	font-weight: normal;
+}
+
+#top_bar {
+	padding: 10px;
+	text-align: center;
+}
+
+#blog_title {
+	padding: 10px;
+	font-size: 2em;
+}
+
+#blog_date {
+	font-size: 1.4em;
+}
+
+#content {
+	margin: auto;
+	width: 75%;
+	text-align: justify;
+	font-size: 1.2em;
+}
