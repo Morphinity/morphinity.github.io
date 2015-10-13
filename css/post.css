@@ -1,6 +1,7 @@
 #post {
 	font-family: 'Open Sans';
 	font-weight: normal;
+	text-decoration: none;
 }
 
 #top_bar {
@@ -22,4 +23,7 @@
 	width: 75%;
 	text-align: justify;
 	font-size: 1.2em;
+}
+#content a {
+	text-decoration: none;
 }
