@@ -1,0 +1,26 @@
+---
+layout: default
+title: Reading List
+---
+<div id="books">
+	<span class="title"> Currently Reading </span>
+	<div class="books_data">
+		{% for book in site.data.currentBooks %}
+			<li>
+				<span id="book_name"> {{ book.name }} </span>
+				<span id="author_name"> ({{ book.author }})</span>
+			</li> 
+		{% endfor %}
+	</div>
+	<div id="read_list">
+		<span class="title">Reading List </span>
+	</div>
+	<div class="books_data">
+		{% for book in site.data.readList %}
+			<li>
+				<span id="book_name"> {{ book.name }} </span>
+				<span id="author_name"> ({{ book.author }})</span>
+			</li> 
+		{% endfor %}
+	</div>
+</div>
