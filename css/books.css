@@ -1,0 +1,26 @@
+#books {
+	padding: 10px;
+	font-family: 'Open Sans';
+	font-weight: normal;
+}
+
+.title {
+	padding: 10px;
+	font-size: 1.5em;
+}
+
+.books_data {
+	padding: 10px 40px;
+}
+
+#book_name {
+	font-size: 1.2em;
+}
+
+#author_name {
+	font-style: italic;
+}
+
+#read_list {
+	margin-top: 20px;
+}
