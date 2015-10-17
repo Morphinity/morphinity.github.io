@@ -1,0 +1,55 @@
+/* Projects */
+#projects {
+	font-family: 'Open Sans';
+	padding : 20px;
+	width: 90%;
+	margin: auto;
+	text-align: justify;
+}
+
+#projects a {
+	text-decoration: none;
+}
+
+#projects ul {
+	list-style: none;
+}
+
+#projects hr {
+	margin: 20px 0px;
+}
+/* Publications */
+#publications {
+	padding: 0px;
+}
+
+
+#publ_name {
+	font-size: 1.5em;
+}
+
+#publ_conf {
+	font-size: 1.2em;
+	font-style: italic;
+}
+
+/* Projects */
+#project {
+	padding: 0px;
+}
+
+#project ul {
+	list-style: disc;
+}
+
+#proj_name {
+	font-size: 1.5em;
+}
+
+#proj_time {
+	font-style: italic;
+}
+
+#proj_desc {
+	padding: 10px 0px;
+}
