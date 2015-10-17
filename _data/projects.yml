@@ -1,0 +1,72 @@
+- name : "Adobe Premiere Clip - Android and Web Application"
+  description : "<ul>
+  				<li>
+  					Created MOV file playback support on Android which does not natively support it. For this I built
+  					an efficient video/audio sample loader that interacts with decoders in other threads to give a seamless
+  					video/audio playback. Built an efficient Thumbnail extractor that can fetch frames for Ultra HD files. 
+  				</li>
+  				<li>
+	  				Designed and built backend and UX for a video player and an editor that can edit a sequence of 
+	  				videos and images. Built features such as trimming, transition between clips, sequence editing, 
+	  				lighting filters such as exposure, highlights, shadows, audio controls etc.
+  				</li>
+				<li>
+					Designed internal data models for Projects and Sequence of media files. 
+					Created framework for interaction between UI, playback and rendering threads on Android.
+				</li>
+				<li>
+					Built an efficient Rendering pipeline that applies filters to frames on the fly during video playback. 
+					Built a single shader in OpenGL that implements several filters by loading LUT (Lookup Table) data in 
+					an intelligent way.
+				</li></ul>
+				"
+  time : "October 2014 - Present"
+
+- name : "Adobe - Media Grouping Algorithm"
+  description : "<ul>
+  				<li>
+  					Intention of the algorithm was to group a user\'s media files in a way such that those groups represent
+  					memories and events in user\'s life. Each memory or event can have further sub-memories and sub-events.
+  				</li>
+  				<li>
+  					The algorithm analyzes media metadata and groups the files recursively for navigation. 
+  					The algorithm uses time and optionally location (prediction is done if unavailable) to build a 
+  					tree of user\'s media files. Built data structures to efficiently fetch information of a node representing an
+  					event.
+  				</li>
+  				<li>
+  					Built client-server interface to fetch the groups and designed a 
+  					database to hold result data.
+  				</li> </ul>"
+  time : "July 2014 - September 2014"				
+
+- name : "Adobe ATL - Customer Lifetime Value"
+  description : "<ul>
+  					<li>
+  						At Adobe ATL (Advanced Technology Labs), I identified the current research landscape 
+  						on the business metric called Customer Lifetime Value, came up with and solved a 
+  						challenging problem. 
+  					</li>
+  					<li>
+				  		Current mathematical models for CLV use several customer parameters to predict 
+						their future profitability. With the growth of user's activity on social media websites, 
+						it becomes interesting to see how their activity on social networks can be leveraged to 
+						improve these models.
+					</li>
+					<li>
+					   My work revolved around predictive models and machine learning techniques to improve upon 
+					   these models and evaluate the profitability of Adobe customers on <a href=\"https://www.behance.net/\"> Behance </a> (social network for creatives).
+					</li></ul>"
+  time : "May 2013 - July 2013"
+
+
+- name : "Prediction of Product Sales and Popularity Using Social Media Data"
+  description : "<ul>
+  				<li>
+	  				The project aims to develop a predictive model that analyzes the relationship between 
+	  				user ratings of the products and user characteristics and perform product recommendations.
+  				</li>
+  				<li>
+  					The project was done as part of my undergraduate thesis.
+  				</li></ul>"
+  time : "August 2013 - April 2014"

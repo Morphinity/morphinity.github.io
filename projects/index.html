@@ -2,6 +2,25 @@
 layout: default
 title: PROJECTS
 ---
-<div>
-	Work in Progress
+<div id="projects">
+	<ul id="publications">
+		{% for publication in site.data.publication %}
+			<li>
+				<span id="publ_name"> <a href="{{publication.link}}">{{publication.name}}</a> </span> <br/>
+				<span id="publ_conf"> ({{publication.conference}}) </span> <br/>
+				<span id="publ_authors"> {{publication.authors}} </span> <br/>
+			</li>
+			<hr/>
+		{% endfor %}
+	</ul>
+	<ul id="project">
+		{% for project in site.data.projects %}
+			<li>
+				<span id="proj_name">{{project.name}}</span> <br/>
+				<span id="proj_time">({{project.time}})</span> <br/> <br/>
+				<span id="proj_desc">{{project.description}}</span> <br/>
+			</li>
+			<hr/>
+		{% endfor %}
+	</ul>
 </div>
