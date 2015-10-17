@@ -1,0 +1,26 @@
+#quotes_container {
+	font-family: 'Open Sans';
+	margin: auto;
+	width: 75%;
+	padding: 10px;
+}
+
+#quotes_container ul {
+	padding: 0px;
+	text-align: center;
+}
+
+
+#quotes_container li {
+	list-style: none;
+}
+
+#quote {
+	text-align: justify;
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+#author {
+	font-size: 1em;
+}

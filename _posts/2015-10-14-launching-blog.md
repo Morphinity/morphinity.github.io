@@ -8,7 +8,7 @@ My primary intention for setting up and using this blog is to share my experienc
 
 This blog is powered by [Github Pages](https://pages.github.com/) and [Jekyll](http://jekyllrb.com), both of which fit in perfectly with my need to create a simple clean site, with no fancy layouts and a small learning curve to setup the requisites\.
 
-As I finished watching *Mad Men* last week, I feel compelled to share the words of wisdom imparted to *Don Draper* as he finally finds peace and happiness in accepting the self \-  
+I finished watching *Mad Men* last week and feel compelled to share the words of wisdom imparted to *Don Draper* as he finally finds peace and happiness in accepting the self \-  
 
 > *\"The new day brings new hope, the lives we\'ve led\.
 > The lives we\'ve yet to lead\.
