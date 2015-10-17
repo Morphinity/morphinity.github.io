@@ -2,6 +2,14 @@
 layout: default
 title: QUOTES
 ---
-<div>
-	Work In Progress
+<div id="quotes_container">
+	<ul>
+		{% for quoteObj in site.data.quotes %}
+			<li>
+				<span id="quote"> {{quoteObj.quote}} </span>
+				<br/>
+				<span id="author"> - {{quoteObj.author}} </span>
+			</li>
+		{% endfor %}
+	</ul>	
 </div>
