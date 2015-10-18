@@ -20,6 +20,9 @@ title: Reading List
 			<li>
 				<span id="book_name"> {{ book.name }} </span>
 				<span id="author_name"> ({{ book.author }})</span>
+				{% if book.done == "true" %}
+					<img src="/assets/button_check.png" width="20px" height="20px"/> 
+				{% endif %}
 			</li> 
 		{% endfor %}
 	</div>

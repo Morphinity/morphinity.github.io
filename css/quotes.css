@@ -12,6 +12,7 @@
 
 #quotes_container li {
 	list-style: none;
+	padding: 10px;
 }
 
 #quote {

@@ -1,5 +1,27 @@
+- name : "Automated Planning"
+  author : "Ghallab, Nau, Traverso"
+  done : "false"
+
+- name : "God is not great"
+  author : "Christopher Hitchens"
+  done : "true"
+
 - name : "Distributed Algorithms"
   author: "Nancy Lynch"
+  done : "false"
 
+- name : "7 Habits of Highly Effective People"
+  author : "Stephen R. Covey"
+  done : "false"
+
+- name : "Man's Search for Meaning"
+  author : "Viktor Frankl"
+  done : "true"
+
+- name : "The Age of Reason"
+  author : "Thomas Paine"
+  done : "false"
+  
 - name : "Art of War"
   author : Sun Tzu
+  done : "false"
