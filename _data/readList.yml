@@ -18,6 +18,12 @@
   author : "Viktor Frankl"
   done : "true"
 
+- name : "The $100 Startup"
+  author : "Chris Guillebeau"
+
+- name : "Slaughterhouse-Five"
+  author : "Kurt Vonnegut"
+
 - name : "The Age of Reason"
   author : "Thomas Paine"
   done : "false"
