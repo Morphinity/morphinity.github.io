@@ -23,3 +23,7 @@
 	text-align: justify;
 	font-size: 1.2em;
 }
+
+#content a {
+	text-decoration: none;
+}
