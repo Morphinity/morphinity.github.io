@@ -3,7 +3,7 @@
   				<li>
   					Created MOV file playback support on Android which does not natively support it. For this I built
   					an efficient video/audio sample loader that interacts with decoders in other threads to give a seamless
-  					video/audio playback. Built an efficient Thumbnail extractor that can fetch frames for Ultra HD files. 
+  					video/audio playback. Built an efficient Thumbnail extractor that can fetch frames for Ultra HD videos. 
   				</li>
   				<li>
 	  				Designed and built backend and UX for a video player and an editor that can edit a sequence of 
@@ -20,7 +20,9 @@
 					an intelligent way.
 				</li></ul>
 				"
-  time : "October 2014 - Present"
+  time : "October 2014 - November 2015"
+  hasLink : "true"
+  link : "https://play.google.com/store/apps/details?id=com.adobe.premiereclip"
 
 - name : "Adobe - Media Grouping Algorithm"
   description : "<ul>
@@ -38,6 +40,7 @@
   					Built client-server interface to fetch the groups and designed a 
   					database to hold result data.
   				</li> </ul>"
+  hasLink : "false"
   time : "July 2014 - September 2014"				
 
 - name : "Adobe ATL - Customer Lifetime Value"
@@ -57,6 +60,7 @@
 					   My work revolved around predictive models and machine learning techniques to improve upon 
 					   these models and evaluate the profitability of Adobe customers on <a href=\"https://www.behance.net/\"> Behance </a> (social network for creatives).
 					</li></ul>"
+  hasLink : "false"
   time : "May 2013 - July 2013"
 
 
@@ -69,4 +73,5 @@
   				<li>
   					The project was done as part of my undergraduate thesis.
   				</li></ul>"
+  hasLink : "false"
   time : "August 2013 - April 2014"

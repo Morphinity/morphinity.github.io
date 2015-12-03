@@ -16,7 +16,12 @@ title: PROJECTS
 	<ul id="project">
 		{% for project in site.data.projects %}
 			<li>
-				<span id="proj_name">{{project.name}}</span> <br/>
+				{% if project.hasLink == "true" %}
+					<span id="proj_name"> <a href="{{project.link}}" target="_blank">{{project.name}}</a></span> <br/>
+				{% endif %}
+				{% if project.hasLink == "false" %}
+					<span id="proj_name">{{project.name}}</span> <br/>
+				{% endif %}
 				<span id="proj_time">({{project.time}})</span> <br/> <br/>
 				<span id="proj_desc">{{project.description}}</span> <br/>
 			</li>
