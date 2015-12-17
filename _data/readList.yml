@@ -2,10 +2,6 @@
   author : "Ghallab, Nau, Traverso"
   done : "false"
 
-- name : "God is not great"
-  author : "Christopher Hitchens"
-  done : "true"
-
 - name : "Distributed Algorithms"
   author: "Nancy Lynch"
   done : "false"
@@ -14,15 +10,13 @@
   author : "Stephen R. Covey"
   done : "false"
 
-- name : "Man's Search for Meaning"
-  author : "Viktor Frankl"
-  done : "true"
-
 - name : "The $100 Startup"
   author : "Chris Guillebeau"
+  done : "false"
 
 - name : "Slaughterhouse-Five"
   author : "Kurt Vonnegut"
+  done : "false"
 
 - name : "The Age of Reason"
   author : "Thomas Paine"
@@ -31,3 +25,19 @@
 - name : "Art of War"
   author : Sun Tzu
   done : "false"
+
+- name : "The Importance of Being Earnest"
+  author : "Oscar Wilde"
+  done : "false"
+
+- name : "The Picture of Dorian Gray"
+  author : "Oscar Wilde"
+  done : "true"
+
+- name : "God is not great"
+  author : "Christopher Hitchens"
+  done : "true"
+
+- name : "Man's Search for Meaning"
+  author : "Viktor Frankl"
+  done : "true"
