@@ -24,7 +24,7 @@
 
 - name : "The $100 Startup"
   author : "Chris Guillebeau"
-  done : "false"
+  done : "true"
 
 - name : "The Importance of Being Earnest"
   author : "Oscar Wilde"
