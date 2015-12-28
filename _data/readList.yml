@@ -22,6 +22,10 @@
   author : Sun Tzu
   done : "false"
 
+- name : "One Hundred Years of Solitude"
+  author : "Gabriel Garcia Marquez"
+  done : "false"
+
 - name : "The $100 Startup"
   author : "Chris Guillebeau"
   done : "true"
