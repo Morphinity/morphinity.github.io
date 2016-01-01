@@ -1,3 +1,19 @@
+- name : "Zero To One"
+  author : "Peter Thiel"
+  done : "false"
+
+- name : "The Hard Things About Hard Things"
+  author : "Ben Horowitz"
+  done : "false"
+
+- name : "The Lean Startup"
+  author : "Eric Ries"
+  done : "false"
+
+- name : "The Facebook Effect"
+  author : "David Kirkpatrick"
+  done : "false"
+
 - name : "Automated Planning"
   author : "Ghallab, Nau, Traverso"
   done : "false"
@@ -25,6 +41,10 @@
 - name : "One Hundred Years of Solitude"
   author : "Gabriel Garcia Marquez"
   done : "false"
+
+- name : "Days of Reading"
+  author : "Marcel Proust"
+  done : "true"
 
 - name : "The $100 Startup"
   author : "Chris Guillebeau"
