@@ -18,7 +18,7 @@ We have two ways to go about now
 
 + Using ByteBuffer
 	+ Obtain the data in a ByteBuffer using mediaCodec.getOutputBuffer(outputBufferIndex)
-	+ Obtain the color format from mediaCodec outputFormat and use a color conversion function to convert it to ARGB pixels\. This post discusses the conversion of YUV color format to ARGB\.
+	+ Obtain the color format from mediaCodec outputFormat and use a color conversion function to convert it to ARGB pixels\. I will discuss the conversion of YUV color format to ARGB in a future post\.
 	+ Obtain width, height and rotation from outputFormat to create a bitmap\. Use setPixels api to set the above obtained pixels on the bitmap\.
 	+ Perform scaling by using ThumbnailUtils and extract the bitmap of the required size\.
 + Using Surface
