@@ -1,9 +1,9 @@
-- name : "Zero To One"
-  author : "Peter Thiel"
+- name : "The Order of Things"
+  author : "Michel Foucault"
   done : "false"
 
-- name : "The Hard Things About Hard Things"
-  author : "Ben Horowitz"
+- name : "Zero To One"
+  author : "Peter Thiel"
   done : "false"
 
 - name : "The Lean Startup"
@@ -12,6 +12,10 @@
 
 - name : "The Facebook Effect"
   author : "David Kirkpatrick"
+  done : "false"
+
+- name : "The Viral Loop"
+  author : "Adam L. Penenberg"
   done : "false"
 
 - name : "Automated Planning"
@@ -41,6 +45,10 @@
 - name : "One Hundred Years of Solitude"
   author : "Gabriel Garcia Marquez"
   done : "false"
+
+- name : "The Hard Things About Hard Things"
+  author : "Ben Horowitz"
+  done : "true"
 
 - name : "Days of Reading"
   author : "Marcel Proust"
