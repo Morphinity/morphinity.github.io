@@ -75,3 +75,20 @@
   				</li></ul>"
   hasLink : "false"
   time : "August 2013 - April 2014"
+
+- name : "Application of Kalman Filter to Smoothen GPS Navigational Data"
+  description : '<ul>
+                  <li>
+                      Studied in detail, the mathematics and intuition behind the workings of Kalman Filter.
+                  </li>
+                  <li>
+                      Implemented a filter that inputs GPS navigation data obtained from a ballistic missile containing white
+                      gaussian noise and outputs an estimate of the actual smoothened path taken by the missile.
+                  </li>
+                  <li>
+                      Term Paper on the project - 
+                      <a href="https://morphinity.github.io/assets/kalman_filter.pdf">Application of Kalman Filter on GPS Data.pdf</a>
+                  </li>
+                </ul>'
+  hasLink : "false"
+  time : "September 2013 - October 2013"
