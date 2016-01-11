@@ -51,4 +51,4 @@ In order to address the accusations of having written an immoral book, Oscar Wil
 
 The entire text of the novel is replete with epigrams and unconventional wisdom delivered by a radical character Lord Henry Wotton who glorifies a hedonistic viewpoint of life. As I read through the book, I felt it worthwhile to compile all those witty, satirical and poisonous dialogues and monologues (The list is not complete and I will keep updating it).
 
-[Quotes from The Picture of Dorian Gray.pdf](https://morphinity.github.com/assets/dorian_gray.pdf)
+[Quotes from The Picture of Dorian Gray.pdf](https://morphinity.github.io/assets/dorian_gray.pdf)
