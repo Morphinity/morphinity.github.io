@@ -44,7 +44,7 @@
 
 - name : "One Hundred Years of Solitude"
   author : "Gabriel Garcia Marquez"
-  done : "false"
+  done : "true"
 
 - name : "The Hard Things About Hard Things"
   author : "Ben Horowitz"
