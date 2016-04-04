@@ -1,5 +1,8 @@
 - name : "Adobe Premiere Clip - Android and Web Application"
   description : "<ul>
+          <li>
+            Adobe Premiere Clip is a video editing application with 100k+ installs.
+          </li>
   				<li>
   					Created MOV file playback support on Android which does not natively support it. For this I built
   					an efficient video/audio sample loader that interacts with decoders in other threads to give a seamless
