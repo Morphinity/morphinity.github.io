@@ -42,6 +42,14 @@
   author : Sun Tzu
   done : "false"
 
+- name : "Napoleon"
+  author : "Emil Ludwig"
+  done : "false"
+  
+- name : "The Lean Startup"
+  author : "Eric Ries"
+  done: "true"
+
 - name : "One Hundred Years of Solitude"
   author : "Gabriel Garcia Marquez"
   done : "true"
