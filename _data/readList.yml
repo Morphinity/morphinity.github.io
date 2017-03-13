@@ -2,14 +2,6 @@
   author : "Michel Foucault"
   done : "false"
 
-- name : "Zero To One"
-  author : "Peter Thiel"
-  done : "false"
-
-- name : "The Lean Startup"
-  author : "Eric Ries"
-  done : "false"
-
 - name : "The Facebook Effect"
   author : "David Kirkpatrick"
   done : "false"
@@ -45,7 +37,11 @@
 - name : "Napoleon"
   author : "Emil Ludwig"
   done : "false"
-  
+
+- name : "Zero To One"
+  author : "Peter Thiel"
+  done : "done"
+
 - name : "The Lean Startup"
   author : "Eric Ries"
   done: "true"
