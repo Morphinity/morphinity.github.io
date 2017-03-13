@@ -2,14 +2,6 @@
   author : "Michel Foucault"
   done : "false"
 
-- name : "Zero To One"
-  author : "Peter Thiel"
-  done : "false"
-
-- name : "The Lean Startup"
-  author : "Eric Ries"
-  done : "false"
-
 - name : "The Facebook Effect"
   author : "David Kirkpatrick"
   done : "false"
@@ -45,7 +37,27 @@
 - name : "Napoleon"
   author : "Emil Ludwig"
   done : "false"
-  
+
+- name : "Talent is Overrated"
+  author : "Geoff Colvin"
+  done : "true"
+
+- name : "Elon Musk"
+  author : "Ashlee Vance"
+  done : "true"
+
+- name : "Survival of the Sickest"
+  author : "Sharon Moalem"
+  done : "true" 
+
+- name : "The Ultimate Hitchhiker's Guide to the Galaxy"
+  author : "Douglas Adams"
+  done : "true"
+
+- name : "Zero To One"
+  author : "Peter Thiel"
+  done : "true"
+
 - name : "The Lean Startup"
   author : "Eric Ries"
   done: "true"
