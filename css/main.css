@@ -12,8 +12,8 @@ body {
 #main_body #top_bar h1 {
     font-weight: normal;
     font-size: 3em;
-    letter-spacing: 10px;
-    word-spacing: 30px;
+    letter-spacing: 5px;
+    word-spacing: 15px;
     color: #777;
     font-family:'Arial', 'Verdana', 'Helvetica', 'Sans-Serif';
 }
@@ -37,7 +37,7 @@ body {
 ul#nav_list {
     padding: 0;
     margin: 0;
-    list-style: none;    
+    list-style: none;
     text-align: center;
 }
 
@@ -55,7 +55,7 @@ ul#nav_list li {
 ul#nav_list li a {
     color: #555;
     text-decoration: none;
-    -webkit-user-select: none;        
+    -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
 }
