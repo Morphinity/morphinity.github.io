@@ -1,3 +1,21 @@
+- name : "Adobe Story"
+  description : "<ul>
+          <li>
+            Adobe Story is a web based editor for creating screenplays and script writing, integrated with scheduling and reporting for production process.
+          </li>
+          <li>
+            Designed and built the architecture for a real-time collaborative script editor on browser, based on web-sockets and NodeJS.
+          </li>
+          <li>
+            Implemented several data models associated with script such as camera shots and recording tapes. Implemented pagination and undo-redo on the document that works with several authors editing in real-time.
+          </li>
+          <li>
+            Built an optimised overlay renderer that renders any UX element on top of the script annotated to some script text.
+          </li></ul>"
+  time : "December 2015 - January 2017"
+  hasLink : "true"
+  link : "https://story.adobe.com/"
+
 - name : "Adobe Premiere Clip - Android and Web Application"
   description : "<ul>
           <li>
@@ -6,20 +24,20 @@
   				<li>
   					Created MOV file playback support on Android which does not natively support it. For this I built
   					an efficient video/audio sample loader that interacts with decoders in other threads to give a seamless
-  					video/audio playback. Built an efficient Thumbnail extractor that can fetch frames for Ultra HD videos. 
+  					video/audio playback. Built an efficient Thumbnail extractor that can fetch frames for Ultra HD videos.
   				</li>
   				<li>
-	  				Designed and built backend and UX for a video player and an editor that can edit a sequence of 
-	  				videos and images. Built features such as trimming, transition between clips, sequence editing, 
+	  				Designed and built backend and UX for a video player and an editor that can edit a sequence of
+	  				videos and images. Built features such as trimming, transition between clips, sequence editing,
 	  				lighting filters such as exposure, highlights, shadows, audio controls etc.
   				</li>
 				<li>
-					Designed internal data models for Projects and Sequence of media files. 
+					Designed internal data models for Projects and Sequence of media files.
 					Created framework for interaction between UI, playback and rendering threads on Android.
 				</li>
 				<li>
-					Built an efficient Rendering pipeline that applies filters to frames on the fly during video playback. 
-					Built a single shader in OpenGL that implements several filters by loading LUT (Lookup Table) data in 
+					Built an efficient Rendering pipeline that applies filters to frames on the fly during video playback.
+					Built a single shader in OpenGL that implements several filters by loading LUT (Lookup Table) data in
 					an intelligent way.
 				</li></ul>
 				"
@@ -34,33 +52,33 @@
   					memories and events in user\'s life. Each memory or event can have further sub-memories and sub-events.
   				</li>
   				<li>
-  					The algorithm analyzes media metadata and groups the files recursively for navigation. 
-  					The algorithm uses time and optionally location (prediction is done if unavailable) to build a 
+  					The algorithm analyzes media metadata and groups the files recursively for navigation.
+  					The algorithm uses time and optionally location (prediction is done if unavailable) to build a
   					tree of user\'s media files. Built data structures to efficiently fetch information of a node representing an
   					event.
   				</li>
   				<li>
-  					Built client-server interface to fetch the groups and designed a 
+  					Built client-server interface to fetch the groups and designed a
   					database to hold result data.
   				</li> </ul>"
   hasLink : "false"
-  time : "July 2014 - September 2014"				
+  time : "July 2014 - September 2014"
 
 - name : "Adobe ATL - Customer Lifetime Value"
   description : "<ul>
   					<li>
-  						At Adobe ATL (Advanced Technology Labs), I identified the current research landscape 
-  						on the business metric called Customer Lifetime Value, came up with and solved a 
-  						challenging problem. 
+  						At Adobe ATL (Advanced Technology Labs), I identified the current research landscape
+  						on the business metric called Customer Lifetime Value, came up with and solved a
+  						challenging problem.
   					</li>
   					<li>
-				  		Current mathematical models for CLV use several customer parameters to predict 
-						their future profitability. With the growth of user's activity on social media websites, 
-						it becomes interesting to see how their activity on social networks can be leveraged to 
+				  		Current mathematical models for CLV use several customer parameters to predict
+						their future profitability. With the growth of user's activity on social media websites,
+						it becomes interesting to see how their activity on social networks can be leveraged to
 						improve these models.
 					</li>
 					<li>
-					   My work revolved around predictive models and machine learning techniques to improve upon 
+					   My work revolved around predictive models and machine learning techniques to improve upon
 					   these models and evaluate the profitability of Adobe customers on <a target=\"_blank\" href=\"https://www.behance.net/\"> Behance </a> (social network for creatives).
 					</li></ul>"
   hasLink : "false"
@@ -70,7 +88,7 @@
 - name : "Prediction of Product Sales and Popularity Using Social Media Data"
   description : "<ul>
   				<li>
-	  				The project aims to develop a predictive model that analyzes the relationship between 
+	  				The project aims to develop a predictive model that analyzes the relationship between
 	  				user ratings of the products and user characteristics and perform product recommendations.
   				</li>
   				<li>
@@ -89,7 +107,7 @@
                       gaussian noise and outputs an estimate of the actual smoothened path taken by the missile.
                   </li>
                   <li>
-                      Term Paper on the project - 
+                      Term Paper on the project -
                       <a href="https://morphinity.github.io/assets/kalman_filter.pdf">Application of Kalman Filter on GPS Data.pdf</a>
                   </li>
                 </ul>'
