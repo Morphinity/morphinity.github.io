@@ -1,16 +1,18 @@
 #books {
-	padding: 10px;
 	font-family: 'Open Sans';
 	font-weight: normal;
+  margin: auto;
+  max-width: 48em;
+	padding: 2em 3em 2em 3em;
 }
 
 .title {
-	padding: 10px;
+	padding: 0.5em;
 	font-size: 1.5em;
 }
 
 .books_data {
-	padding: 10px 40px;
+	padding: 1em 3em;
 }
 
 #book_name {
@@ -22,5 +24,5 @@
 }
 
 #read_list {
-	margin-top: 20px;
+	margin-top: 2em;
 }

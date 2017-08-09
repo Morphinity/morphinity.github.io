@@ -1,13 +1,13 @@
-#contact {
+.sidenav .contact {
 	font-family: 'Open Sans';
 	padding: 20px;
 }
 
-#contact a {
+.sidenav .contact a {
 	text-decoration: none;
 }
 
-#contact img {
-	width: 20px;
-	height: 20px;
+.sidenav .contact img {
+	width: 1.5em;
+	height: 1.5em;
 }

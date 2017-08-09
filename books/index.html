@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Reading List
+pageTitle: Reading List
 ---
 <div id="books">
 	<span class="title"> Currently Reading </span>
@@ -9,12 +9,11 @@ title: Reading List
 			<li>
 				<span id="book_name"> {{ book.name }} </span>
 				<span id="author_name"> ({{ book.author }})</span>
-			</li> 
+			</li>
 		{% endfor %}
 	</div>
 	<div id="read_list">
 		<span class="title">Reading List </span>
-		<a href="https://www.goodreads.com/mohitbakshi" target="_blank"><img src="/assets/goodreads.png"/ style="vertical-align:top"></a>
 	</div>
 	<div class="books_data">
 		{% for book in site.data.readList %}
@@ -22,9 +21,9 @@ title: Reading List
 				<span id="book_name"> {{ book.name }} </span>
 				<span id="author_name"> ({{ book.author }})</span>
 				{% if book.done == "true" %}
-					<img src="/assets/button_check.png" width="20px" height="20px"/> 
+					<img src="/assets/button_check.png" width="20px" height="20px"/>
 				{% endif %}
-			</li> 
+			</li>
 		{% endfor %}
 	</div>
 </div>

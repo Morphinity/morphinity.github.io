@@ -1,8 +1,8 @@
 #quotes_container {
 	font-family: 'Open Sans';
 	margin: auto;
-	width: 75%;
-	padding: 10px;
+	padding: 2em 3em 2em 3em;
+  max-width: 48em;
 }
 
 #quotes_container ul {
@@ -12,7 +12,7 @@
 
 #quotes_container li {
 	list-style: none;
-	padding: 10px;
+	padding: 1em;
 }
 
 #quote {
