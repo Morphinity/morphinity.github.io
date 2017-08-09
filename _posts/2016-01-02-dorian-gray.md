@@ -1,9 +1,9 @@
 ---
 layout : post
-blogTitle : "The Picture of Dorian Gray"
-category : art
+blogTitle : "Review - The Picture of Dorian Gray"
+category : art, review
 date : 2016-01-02
-pageTitle: "The Picture of Dorian Gray"
+pageTitle: "Review - The Picture of Dorian Gray"
 ---
 *This post is concerned with the novel **The Picture of Dorian Gray**. I\'ve made an attempt to present the controversial hedonistic philosophy of Lord Henry Wotton by compiling all his epigrams and dialogues\.*
 
