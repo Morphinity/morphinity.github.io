@@ -3,6 +3,7 @@ layout : post
 blogTitle : Decoding Video Frame to Bitmap
 category : Code
 date : 2015-12-03
+pageTitle: "Decoding Video Frame to Bitmap"
 ---
 *This post deals with getting a frame from Android MediaCodec and converting it to a bitmap\. Assuming basic knowledge of MediaCodec, Bitmap, MediaExtractor*
 

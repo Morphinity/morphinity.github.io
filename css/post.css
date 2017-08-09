@@ -2,11 +2,14 @@
 	font-family: 'Open Sans';
 	font-weight: normal;
 	text-decoration: none;
+  max-width: 48em;
+  margin: 0 auto;
+  padding: 0 3em 0 3em;
 }
 
-#top_bar {
-	padding: 10px;
-	text-align: center;
+#blog_title_bar {
+    text-align: center;
+    width: 100%;
 }
 
 #blog_title {
@@ -15,14 +18,14 @@
 }
 
 #blog_date {
-	font-size: 1.4em;
+	font-size: 1.5em;
 }
 
 #content {
 	margin: auto;
-	width: 75%;
 	text-align: justify;
-	font-size: 1.2em;
+	font-size: 1em;
+  max-width: 50em;
 }
 
 #content a {
