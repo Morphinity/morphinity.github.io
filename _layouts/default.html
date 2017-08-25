@@ -59,12 +59,10 @@
           var atom = this.responseXML;
           var entries = atom.getElementsByTagName("entry");
           for(var i = 0; i < entries.length; i++) {
-            var entry = entries[i];
-            blogs.unshift({
-                "id": entry.getElementsByTagName("id")[0].childNodes[0].nodeValue,
-                "link": entry.getElementsByTagName("link")[0].getAttribute("href")
-            });
+            blogs.unshift(entries[i].getElementsByTagName("link")[0].getAttribute("href"));
           }
+          if(blogs.indexOf(window.location.href) == 0) document.getElementById("back_button").style.opacity = 0.2;
+          if(blogs.indexOf(window.location.href) == (blogs.length - 1)) document.getElementById("next_button").style.opacity = 0.2;
           blogDataLoaded = true;
         }
       }
