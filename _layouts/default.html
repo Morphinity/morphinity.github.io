@@ -75,12 +75,12 @@
       var currLocation = document.location.href;
       var i = 0;
       while(i < blogs.length) {
-        if(currLocation === blogs[i]["link"])
+        if(currLocation === blogs[i])
           break;
         i++;
       }
-      if(action == "prev" && (i > 0 && i < blogs.length)) window.location = blogs[i - 1]["link"];
-      else if(action == "next" && (i < blogs.length - 1)) window.location = blogs[i + 1]["link"];
+      if(action == "prev" && (i > 0 && i < blogs.length)) window.location = blogs[i - 1];
+      else if(action == "next" && (i < blogs.length - 1)) window.location = blogs[i + 1];
     }
 
   </script>
