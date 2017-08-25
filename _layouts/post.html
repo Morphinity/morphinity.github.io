@@ -4,8 +4,8 @@ title: "&#955 STATE"
 ---
 <div id="post">
 	<div id="blog_title_bar">
-    <img id="back_button" src="/assets/left_arrow.svg"/>
-    <img id="next_button" src="/assets/right_arrow.svg"/>
+    <img id="back_button" onclick="navigateBlog('prev')" src="/assets/left_arrow.svg"/>
+    <img id="next_button" onclick="navigateBlog('next')" src="/assets/right_arrow.svg"/>
 		<div id="blog_title"> {{page.blogTitle}} </div>
 		<div id="blog_date"> {{page.date | date_to_string}} </div>
 	</div>
