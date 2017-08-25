@@ -1,4 +1,4 @@
 name: Mohit Bakshi
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title.html
+permalink: /blog/:title.html
 encoding: utf-8
